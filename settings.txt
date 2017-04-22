@@ -1,0 +1,4 @@
+ROM resource/bios.bin
+VideoROM resource/vgabios.bin
+MemoryContents /Users/davec/classes/architecture/pipeline4/./program.txt 0
+CustomProcessor /Users/davec/classes/architecture/pipeline4/./datapath.xml /Users/davec/classes/architecture/pipeline4/./controller.xml
