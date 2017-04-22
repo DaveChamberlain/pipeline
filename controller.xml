@@ -14,11 +14,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -31,6 +38,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>fetch</nextstatename>
 </nextstate>
 </state>
@@ -47,6 +60,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <reg PC></reg>
 <mux PCmux>0</mux>
 <reg IRdecode></reg>
@@ -54,6 +73,7 @@
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -66,6 +86,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>fetch</nextstatename>
 </nextstate>
 </state>
@@ -85,11 +111,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -102,6 +135,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>decode</nextstatename>
 </nextstate>
 </state>
@@ -118,6 +157,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <reg immediate></reg>
 <reg Rrt></reg>
@@ -129,6 +174,7 @@
 <mux wbReg>X</mux>
 <reg IRexec></reg>
 <reg PCexec></reg>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -141,6 +187,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>decode</nextstatename>
 </nextstate>
 </state>
@@ -160,11 +212,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -177,6 +236,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>execute</nextstatename>
 </nextstate>
 </state>
@@ -191,8 +256,14 @@
 <input doJump>X</input>
 <input opcode2exec>2</input>
 <input opcode4exec>X</input>
-<input opcode2wb>X</input>
+<input opcode2wb>3</input>
 <input opcode4wb>X</input>
+<input rtExec>0</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>0</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>1</mux>
@@ -200,6 +271,59 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>0</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>3</input>
+<input opcode4exec>X</input>
+<input opcode2wb>2</input>
+<input opcode4wb>X</input>
+<input rtExec>0</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>0</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<mux PCmux>X</mux>
+<alu ALU86>X</alu>
+<mux resultmux>2</mux>
+<reg result></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>0</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>2</input>
+<input opcode4exec>X</input>
+<input opcode2wb>X</input>
+<input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<mux PCmux>X</mux>
+<alu ALU86>X</alu>
+<mux resultmux>1</mux>
+<reg result></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -212,6 +336,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>2</mux>
@@ -219,6 +349,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -231,6 +362,12 @@
 <input opcode4exec>0</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>+</alu>
 <mux resultmux>0</mux>
@@ -238,6 +375,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -250,6 +388,12 @@
 <input opcode4exec>1</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>-</alu>
 <mux resultmux>0</mux>
@@ -257,6 +401,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -269,6 +414,12 @@
 <input opcode4exec>2</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>3</mux>
@@ -276,6 +427,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -288,6 +440,12 @@
 <input opcode4exec>3</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <reg Rrs></reg>
 <reg Rrd></reg>
@@ -297,6 +455,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -309,6 +468,12 @@
 <input opcode4exec>5</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <reg Rrs></reg>
 <reg Rrd></reg>
@@ -318,6 +483,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -330,6 +496,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
@@ -337,6 +509,7 @@
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
 <reg IRwb></reg>
+<mux RrtMux>1</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -349,6 +522,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>execute</nextstatename>
 </nextstate>
 </state>
@@ -368,11 +547,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>0</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -385,6 +571,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>writeback</nextstatename>
 </nextstate>
 </state>
@@ -401,11 +593,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>6</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>0</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -418,11 +617,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>7</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>0</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -435,11 +641,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>3</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>0</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -452,11 +665,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>0</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>0</mux>
 <mux wbReg>1</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -469,11 +689,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>1</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>0</mux>
 <mux wbReg>1</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -486,11 +713,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>2</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>0</mux>
 <mux wbReg>1</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -503,11 +737,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>4</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>1</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>0</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -520,11 +761,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>5</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>1</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>1</mux>
 <mux wbReg>1</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -537,11 +785,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>1</mux>
 <mux wbReg>1</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -554,6 +809,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>7</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>halt</nextstatename>
 </nextstate>
 <nextstate>
@@ -567,6 +828,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>writeback</nextstatename>
 </nextstate>
 </state>
@@ -583,11 +850,18 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>0</mux>
+<mux RrtMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -600,6 +874,12 @@
 <input opcode4exec>X</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
 <nextstatename>halt</nextstatename>
 </nextstate>
 </state>
