@@ -509,6 +509,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -561,6 +570,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -613,6 +631,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -665,6 +692,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -717,6 +753,15 @@
 <mux RrsMux>3</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -769,6 +814,15 @@
 <mux RrsMux>3</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -821,6 +875,15 @@
 <mux RrsMux>0</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -873,6 +936,15 @@
 <mux RrsMux>0</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -925,6 +997,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -977,6 +1058,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -1029,6 +1119,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -1081,6 +1180,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -1133,6 +1241,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -1187,6 +1304,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -1241,6 +1367,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
@@ -1293,6 +1428,15 @@
 <mux RrsMux>1</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
 </microinstruction>
