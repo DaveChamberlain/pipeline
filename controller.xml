@@ -53,6 +53,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -152,6 +157,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -252,6 +262,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -358,6 +373,11 @@
 <reg RtRdCache2Dec></reg>
 <reg RtRsCache2Dec></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -458,6 +478,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -570,6 +595,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -636,6 +666,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -702,6 +737,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -768,6 +808,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -837,6 +882,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -906,6 +956,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -975,6 +1030,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1044,6 +1104,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1113,6 +1178,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1182,6 +1252,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1251,6 +1326,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1320,6 +1400,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1389,6 +1474,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1458,6 +1548,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1527,6 +1622,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1593,6 +1693,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>2</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1659,6 +1764,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>2</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1725,6 +1835,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>2</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1733,8 +1848,8 @@
 <input opcode4>X</input>
 <input opcode2>X</input>
 <input doJump>X</input>
-<input opcode2exec>2</input>
-<input opcode4exec>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>2</input>
 <input opcode2wb>X</input>
 <input opcode4wb>X</input>
 <input rtExec>X</input>
@@ -1791,6 +1906,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>1</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1857,6 +1977,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>1</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1923,6 +2048,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>1</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -1967,7 +2097,7 @@
 <input CachedIsRd>X</input>
 <mux PCmux>X</mux>
 <alu ALU86>X</alu>
-<mux resultmux>3</mux>
+<mux resultmux>1</mux>
 <reg result></reg>
 <mux wbRdOrRt>X</mux>
 <mux wbReg>X</mux>
@@ -1989,6 +2119,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2055,6 +2190,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2121,6 +2261,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2172,7 +2317,7 @@
 <reg IRwb></reg>
 <mux RrtMux>1</mux>
 <mux RrdMux>0</mux>
-<mux RrsMux>1</mux>
+<mux RrsMux>0</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
 <reg RtRtCache2Dec></reg>
@@ -2187,6 +2332,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2253,6 +2403,449 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>0</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>3</input>
+<input opcode2wb>X</input>
+<input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>1</input>
+<input rsEqual>X</input>
+<input RsRtEqual>X</input>
+<input RsRdEqual>X</input>
+<input RdRSEqual>X</input>
+<input RdRtEqual>X</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>X</input>
+<input WbIsRd>1</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<reg Rrs></reg>
+<reg Rrd></reg>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<reg dataMemory></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>1</mux>
+<mux RrdMux>0</mux>
+<mux RrsMux>1</mux>
+<reg Cache1></reg>
+<reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
+<reg Cached2></reg>
+<reg Cached4></reg>
+<mux dataMemMux>0</mux>
+<mux dataMemInMux>2</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>3</input>
+<input opcode2wb>X</input>
+<input opcode4wb>5</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>X</input>
+<input rsEqual>X</input>
+<input RsRtEqual>X</input>
+<input RsRdEqual>X</input>
+<input RdRSEqual>1</input>
+<input RdRtEqual>X</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>X</input>
+<input WbIsRd>X</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<reg Rrs></reg>
+<reg Rrd></reg>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<reg dataMemory></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>X</mux>
+<mux RrdMux>0</mux>
+<mux RrsMux>1</mux>
+<reg Cache1></reg>
+<reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
+<reg Cached2></reg>
+<reg Cached4></reg>
+<mux dataMemMux>0</mux>
+<mux dataMemInMux>2</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>3</input>
+<input opcode2wb>X</input>
+<input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>X</input>
+<input rsEqual>X</input>
+<input RsRtEqual>X</input>
+<input RsRdEqual>X</input>
+<input RdRSEqual>X</input>
+<input RdRtEqual>1</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>1</input>
+<input WbIsRd>X</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<reg Rrs></reg>
+<reg Rrd></reg>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<reg dataMemory></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>X</mux>
+<mux RrdMux>0</mux>
+<mux RrsMux>1</mux>
+<reg Cache1></reg>
+<reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
+<reg Cached2></reg>
+<reg Cached4></reg>
+<mux dataMemMux>0</mux>
+<mux dataMemInMux>2</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>3</input>
+<input opcode2wb>X</input>
+<input opcode4wb>5</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>X</input>
+<input rsEqual>1</input>
+<input RsRtEqual>X</input>
+<input RsRdEqual>X</input>
+<input RdRSEqual>X</input>
+<input RdRtEqual>X</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>X</input>
+<input WbIsRd>X</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<reg Rrs></reg>
+<reg Rrd></reg>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<reg dataMemory></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>X</mux>
+<mux RrdMux>0</mux>
+<mux RrsMux>1</mux>
+<reg Cache1></reg>
+<reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
+<reg Cached2></reg>
+<reg Cached4></reg>
+<mux dataMemMux>2</mux>
+<mux dataMemInMux>0</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>3</input>
+<input opcode2wb>X</input>
+<input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>X</input>
+<input rsEqual>X</input>
+<input RsRtEqual>X</input>
+<input RsRdEqual>1</input>
+<input RdRSEqual>X</input>
+<input RdRtEqual>X</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>X</input>
+<input WbIsRd>1</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<reg Rrs></reg>
+<reg Rrd></reg>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<reg dataMemory></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>X</mux>
+<mux RrdMux>0</mux>
+<mux RrsMux>1</mux>
+<reg Cache1></reg>
+<reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
+<reg Cached2></reg>
+<reg Cached4></reg>
+<mux dataMemMux>2</mux>
+<mux dataMemInMux>0</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>X</input>
+<input opcode2exec>X</input>
+<input opcode4exec>3</input>
+<input opcode2wb>X</input>
+<input opcode4wb>X</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>X</input>
+<input rsEqual>X</input>
+<input RsRtEqual>1</input>
+<input RsRdEqual>X</input>
+<input RdRSEqual>X</input>
+<input RdRtEqual>X</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>1</input>
+<input WbIsRd>X</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<reg Rrs></reg>
+<reg Rrd></reg>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<reg dataMemory></reg>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>X</mux>
+<reg IRwb></reg>
+<mux RrtMux>X</mux>
+<mux RrdMux>0</mux>
+<mux RrsMux>1</mux>
+<reg Cache1></reg>
+<reg Cache2></reg>
+<reg RtRtCache2Dec></reg>
+<reg RtRdCache2Dec></reg>
+<reg RtRsCache2Dec></reg>
+<reg RdRtCache2Dec></reg>
+<reg RdRdCache2Dec></reg>
+<reg RdRsCache2Dec></reg>
+<reg RsRtCache2Dec></reg>
+<reg RsRdCache2Dec></reg>
+<reg RsRsCache2Dec></reg>
+<reg Cached2></reg>
+<reg Cached4></reg>
+<mux dataMemMux>2</mux>
+<mux dataMemInMux>0</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2320,7 +2913,12 @@
 <reg RsRsCache2Dec></reg>
 <reg Cached2></reg>
 <reg Cached4></reg>
-<mux dataMemMux>X</mux>
+<mux dataMemMux>0</mux>
+<mux dataMemInMux>0</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2389,6 +2987,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2455,6 +3058,11 @@
 <reg Cached2></reg>
 <reg Cached4></reg>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -2555,6 +3163,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -2652,6 +3265,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2703,6 +3321,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2754,6 +3377,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2805,6 +3433,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2856,6 +3489,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2907,6 +3545,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -2949,7 +3592,7 @@
 <input WbIsRt>X</input>
 <input WbIsRd>X</input>
 <input CachedIsRd>X</input>
-<mux PCmux>1</mux>
+<mux PCmux>2</mux>
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>X</mux>
@@ -2958,6 +3601,67 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>1</mux>
+<mux forceNopExec>1</mux>
+<mux forceNopWb>1</mux>
+<mux RdNowMux>0</mux>
+</microinstruction>
+<microinstruction>
+<input rs>X</input>
+<input rt>X</input>
+<input rd>X</input>
+<input opcode4>X</input>
+<input opcode2>X</input>
+<input doJump>0</input>
+<input opcode2exec>X</input>
+<input opcode4exec>X</input>
+<input opcode2wb>X</input>
+<input opcode4wb>4</input>
+<input rtExec>X</input>
+<input rdExec>X</input>
+<input rsExec>X</input>
+<input rtWb>X</input>
+<input rdWb>X</input>
+<input rsWb>X</input>
+<input rtEqual>X</input>
+<input rdEqual>X</input>
+<input rsEqual>X</input>
+<input RsRtEqual>X</input>
+<input RsRdEqual>X</input>
+<input RdRSEqual>X</input>
+<input RdRtEqual>X</input>
+<input RdMod>X</input>
+<input RsModified>X</input>
+<input useRtRtCache>X</input>
+<input useRtRdCache>X</input>
+<input useRtRsCache>X</input>
+<input useRdRtCache>X</input>
+<input useRdRdCache>X</input>
+<input useRdRsCache>X</input>
+<input useRsRtCache>X</input>
+<input useRsRdCache>X</input>
+<input useRsRsCache>X</input>
+<input opCode2Cache>X</input>
+<input opCode4Cache>X</input>
+<input Cached2isRt>X</input>
+<input WbIsRt>X</input>
+<input WbIsRd>X</input>
+<input CachedIsRd>X</input>
+<mux PCmux>X</mux>
+<alu ALU86>X</alu>
+<mux resultmux>X</mux>
+<mux wbRdOrRt>X</mux>
+<mux wbReg>0</mux>
+<mux RrtMux>X</mux>
+<mux RrdMux>X</mux>
+<mux RrsMux>X</mux>
+<mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -3004,11 +3708,16 @@
 <alu ALU86>X</alu>
 <mux resultmux>X</mux>
 <mux wbRdOrRt>1</mux>
-<mux wbReg>1</mux>
+<mux wbReg>0</mux>
 <mux RrtMux>X</mux>
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>1</mux>
+<mux forceNopExec>1</mux>
+<mux forceNopWb>1</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <microinstruction>
 <input rs>X</input>
@@ -3060,6 +3769,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>0</mux>
+<mux forceNopExec>0</mux>
+<mux forceNopWb>0</mux>
+<mux RdNowMux>1</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
@@ -3200,6 +3914,11 @@
 <mux RrdMux>X</mux>
 <mux RrsMux>X</mux>
 <mux dataMemMux>X</mux>
+<mux dataMemInMux>X</mux>
+<mux forceNopDecode>X</mux>
+<mux forceNopExec>X</mux>
+<mux forceNopWb>X</mux>
+<mux RdNowMux>X</mux>
 </microinstruction>
 <nextstate>
 <input rs>X</input>
