@@ -1310,7 +1310,7 @@
 <mux wbReg>X</mux>
 <reg IRwb></reg>
 <mux RrtMux>X</mux>
-<mux RrdMux>0</mux>
+<mux RrdMux>4</mux>
 <mux RrsMux>3</mux>
 <reg Cache1></reg>
 <reg Cache2></reg>
