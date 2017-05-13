@@ -440,7 +440,7 @@
 <input opcode4exec>X</input>
 <input opcode2wb>2</input>
 <input opcode4wb>X</input>
-<input rtExec>0</input>
+<input rtExec>3</input>
 <input rdExec>X</input>
 <input rsExec>X</input>
 <input rtWb>3</input>
